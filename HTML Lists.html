@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>HTML lists</title>  
+      <style>
+          h1, p
+          {
+            font-family: arial;
+            margin-left: 20px;
+          }
+          .subtitle
+          {
+            font-size: 20px; 
+            color: #3366ff;
+            list-style-type: none;
+            margin-left: -20px;
+          }
+          .sub1
+          {
+            color: white;
+            list-style-type: none;
+            margin-left: -1px;
+          }
+          ul,ol
+          {
+            color: white;
+          }
+          #content{
+            list-style-type: disc;
+            margin-left: -20px;
+          }
+          #content1{
+            list-style-type: decimal;
+            margin-left: -20px;
+          }
+          
+          
+      </style>
+    </head>
+    <body style ="background-color: #330066;">
+        <h1 style="color: orange;">HTML Lists</h1>
+        <ul class="subtitle">
+          <li><b>Unordered List</b></li>
+          <li class="sub1">Ordering doesn't matter.</li><br>
+            <ul id="content">
+             <li>Milk</li>
+             <li>Sugar</li>
+             <li>Bread</li>
+            </ul>
+        </ul>
+        <ol class="subtitle">
+          <li><b>Ordered List</b></li>
+          <li class="sub1">Ordering does matter.</li><br>
+        <ol id="content1">
+            <li>Put the Kettle on</li>
+            <li>Put the teabag in the cup</li>
+            <li>Wait for kettle to boil</li>
+            <li>Pour boiling water in the cup</li>
+        </ol>
+    </body>
+    </body>
+</html>
